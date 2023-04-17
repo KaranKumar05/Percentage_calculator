@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percenatage Calculator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/qurey.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nova+Oval&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+  </head>
+  <body>
+    <h1>Percenatage to Value <span>||</span><span> Value to Percenatage</span></h1>
+    <div class="container">
+      <div class="first_cal">
+        <h1>Value To Percentage</h1>
+        <form>
+          <input
+            type="number"
+            name="first_cel_first_value"
+            id="first_cel_first_value"
+            required placeholder="Enter Value"
+          />
+          <input
+            type="number"
+            name="first_cel_second_value"
+            id="first_cel_second_value"
+            required placeholder="Enter Total Value"
+          />
+          <button type="submit">Calcualte</button>
+        </form>
+        <div id="first_cal"></div>
+      </div>
+      <div class="second_cal">
+        <h1>Percentage to Value</h1>
+        <form>
+          <input
+            type="number"
+            name="second_cel_first_value"
+            id="second_cel_first_value"
+            required placeholder="Enter Percentage"
+          />
+          <input
+            type="number"
+            name="second_cel_second_value"
+            id="second_cel_second_value"
+            required placeholder="Enter Value"
+          />
+          <button type="submit">Calcualte</button>
+        </form>
+        <div id="second_cel"></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

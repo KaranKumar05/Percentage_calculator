@@ -1,0 +1,95 @@
+html {
+    /* background: linear-gradient(to right, #000000, #ffffff); */
+    background-color: rgb(18, 14, 40);
+
+  }
+
+  
+body>h1{
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Nova Oval', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4em;
+    padding: 20px;
+    background: linear-gradient(to right, #5f0490, #0b0377);
+    width: 55em;
+    margin: auto;
+    border-radius: 20px;
+    transition: .3s;
+}
+.container:hover{
+    box-shadow: 5px 5px 20px white;
+
+}
+.container h1{
+    color: white;
+    border-bottom: 2px solid white;
+    font-family: 'Fjalla One', sans-serif;  
+    font-weight: lighter;
+}
+.first_cal, .second_cal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .5em;
+    justify-content: center;
+}
+input{
+    padding: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container button {
+    padding: 5px;
+    width: 12em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: .5s;
+}
+.container button:hover{
+    background-color: white;
+    color: red;
+}
+.first_cal #first_cal,.second_cal #second_cel{
+    background-color: white;
+    margin-top: 1em;
+    font-size: 1.5em;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+/* .second_cal #second_cel{
+    background-color: white;
+    margin-top: 1em;
+    font-size: 1.5em;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+
+} */
